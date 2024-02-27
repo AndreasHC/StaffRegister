@@ -1,2 +1,5 @@
-﻿Employee something = new Employee("me", 2000);
-Console.WriteLine(something.TextRepresentation());
+﻿using StaffRegister;
+
+EmployeeList list = new EmployeeList();
+list.AddEmployee( new Employee("me", 2000));
+Console.WriteLine(list.TextRepresentation());
